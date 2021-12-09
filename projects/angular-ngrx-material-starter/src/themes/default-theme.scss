@@ -1,0 +1,7 @@
+@use '~@angular/material' as mat;
+
+$fd-primary: mat.define-palette(mat.$indigo-palette, 800, 300, 900);
+$fd-accent: mat.define-palette(mat.$light-blue-palette);
+$fd-warn: mat.define-palette(mat.$pink-palette, 600);
+
+$fd-theme: mat.define-light-theme($fd-primary, $fd-accent, $fd-warn);
