@@ -52,8 +52,8 @@
 <!--    </div>-->
 <!--  </div>-->
   <div class="mainSlider">
-    <div class="wrapper">
-      <a href="" ><img class="logo" src="../../../../assets/logo.png"> </a>
+    <div class="wrapper" [ngClass]="routeAnimationsElements">
+      <a href="" ><img class="logo" src="../../../../assets/logo.png"></a>
 
       <div class="clouds">
         <ul>
@@ -70,25 +70,25 @@
           <div class="wrapper_2"><div class="bottom_part"></div></div>
           <div class="wrapper_3"><div class="arrow"></div></div>
         </div>
-        <p>Заказать ФаерШоу?</p>
+        <p>{{ 'fd.about.order' | translate }}</p>
 
         <div id="phone"><a href="tel:0983320640">098 33 20 640</a></div>
       </div>
-      <div class="tarzan"></div>
-      <div class="wood">
+      <div class="tarzan" [ngClass]="routeAnimationsElements"></div>
+      <div class="wood" [ngClass]="routeAnimationsElements">
         <ul class="social">
-          <li><a href="https://www.instagram.com/fierydreamshow/"></a></li>
-          <li><a href="https://www.facebook.com/groups/fierydream.vn.ua/"></a></li>
-          <li><a href="https://plus.google.com/u/0/b/104227155905182321468/+Fierydream/posts"></a></li>
-          <li><a href="https://www.youtube.com/c/Fierydream"></a></li>
-          <li><a href="/blog/index.php/partnery">ПАРТНЕРЫ</a></li>
+          <li><a href="https://www.instagram.com/fierydreamshow/" target="_blank"></a></li>
+          <li><a href="https://www.facebook.com/groups/fierydream.vn.ua/" target="_blank"></a></li>
+          <li><a href="https://plus.google.com/u/0/b/104227155905182321468/+Fierydream/posts" target="_blank"></a></li>
+          <li><a href="https://www.youtube.com/c/Fierydream" target="_blank"></a></li>
+          <li class="priceTitle"><a routerLink="/prices">{{ 'fd.about.prices' | translate }}</a></li>
         </ul>
       </div>
-      <div class="mailBox">
-        <a href="mailto:FireShow@fierydream.com" class="mailInBox"> FireShow@FieryDream.com </a>
+      <div class="mailBox" [ngClass]="routeAnimationsElements">
+        <a href="mailto:FireShow@fierydream.com" class="mailInBox">FireShow@FieryDream.com</a>
         <a href="tel:+380983320640" class="telInBox"> 098 33 20 640 </a>
       </div>
-      <div class="navHelp">
+      <div class="navHelp" >
         <div class="arrowNav down"></div>
         <div class="arrowNav down"></div>
         <div class="arrowNav down"></div>

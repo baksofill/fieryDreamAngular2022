@@ -1,4 +1,9 @@
 {
+  "fd.app.rental": "Обладнання",
+  "fd.app.youtube": "Youtube",
+  "fd.app.instagram": "Instagram",
+  "fd.app.fireworksshop": "Салюти",
+
   "fd.about.change-theme": "Змінити тему",
   "fd.about.check-blogs": "or check blogs about",
   "fd.about.contributors.description1": "Want to start contributing to open source with Angular?",
@@ -12,6 +17,9 @@
   "fd.about.get-notified.follow": "Follow",
   "fd.about.get-notified.title": "Get notified about new releases",
   "fd.about.get-started": "Get started",
+  "fd.about.prices": "Ціна фаєршоу",
+  "fd.about.order": "Замовити ФаерШоу? ",
+
   "fd.features.angular": "Modern powerful framework",
   "fd.features.angular-cli": "A command line interface for Angular",
   "fd.features.angular-material": "Material design component library",
@@ -30,9 +38,12 @@
   "fd.features.title": "Features",
   "fd.features.typescript": "Superior developer experience, code completion, refactoring and less bugs",
   "fd.features.eslint": "ESLint is for identifying problematic patterns found in JavaScript and Typescript code",
+  "fd.prices.title": "Ціни",
+  "fd.prices.test": "",
   "fd.footer.changelog": "Show changelog",
   "fd.header.github": "Project Github Repository",
-  "fd.menu.about": "Про нас",
+  "fd.menu.about": "Головна",
+  "fd.menu.prices": "Ціни",
   "fd.menu.examples": "Приклади",
   "fd.menu.features": "Features",
   "fd.menu.login": "Залогінитись",

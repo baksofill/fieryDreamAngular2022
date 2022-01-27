@@ -20,6 +20,13 @@ const routes: Routes = [
       )
   },
   {
+    path: 'prices',
+    loadChildren: () =>
+      import('./features/prices/prices-list.module').then(
+        (m) => m.PricesListModule
+      )
+  },
+  {
     path: 'settings',
     loadChildren: () =>
       import('./features/settings/settings.module').then(

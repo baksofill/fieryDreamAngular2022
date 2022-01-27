@@ -37,6 +37,7 @@ export class AppComponent implements OnInit {
   languages = ['ua', 'ru', 'en', 'de', ];
   navigation = [
     { link: 'about', label: 'fd.menu.about' },
+    { link: 'prices', label: 'fd.menu.prices' },
     { link: 'feature-list', label: 'fd.menu.features' },
     { link: 'examples', label: 'fd.menu.examples' }
   ];
