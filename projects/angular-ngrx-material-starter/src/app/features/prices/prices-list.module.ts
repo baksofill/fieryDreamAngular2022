@@ -5,9 +5,10 @@ import { SharedModule } from '../../shared/shared.module';
 
 import { PricesListComponent } from './prices-list/prices-list.component';
 import { PricesListRoutingModule } from './prices-list-routing.module';
+import { ProgramsDetailComponent } from './programs-detail/programs-detail.component';
 
 @NgModule({
-  declarations: [PricesListComponent],
+  declarations: [PricesListComponent, ProgramsDetailComponent],
   imports: [CommonModule, SharedModule, PricesListRoutingModule]
 })
 export class PricesListModule {}

@@ -68,6 +68,8 @@ import {
   faPlayCircle,
   faFireAlt,
   faCartArrowDown,
+  faMinusCircle,
+  faBan,
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faGithub,
@@ -196,6 +198,8 @@ export class CoreModule {
       faYoutube,
       faFireAlt,
       faCartArrowDown,
+      faMinusCircle,
+      faBan,
     );
   }
 }

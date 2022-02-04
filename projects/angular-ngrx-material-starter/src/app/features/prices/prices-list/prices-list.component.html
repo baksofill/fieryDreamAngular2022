@@ -1,10 +1,16 @@
 <div class="container" [ngClass]="routeAnimationsElements">
-  <div class="row">
-    <div class="col-md-12">
-      <h1 rtl class="main-heading">{{ 'fd.prices.title' | translate }}</h1>
-    </div>
-  </div>
-  <div class="row align-items-end">
-    {{ 'fd.prices.test' | translate }}
-  </div>
+    <mat-tab-group>
+    <mat-tab label="{{ 'fd.prices.title' | translate }}">
+      <div class="row main-head-row">
+        <div class="col-md-9 col-sm-12">
+          <fd-programs-detail></fd-programs-detail>
+        </div>
+        <div class="col-md-3 photos-side">
+          <div class="photos">Photos...</div>
+        </div>
+      </div>
+    </mat-tab>
+    <mat-tab label="{{ 'fd.prices.programs.styles' | translate }}"> Відосики та опис </mat-tab>
+    <mat-tab label="{{ 'fd.prices.gallery' | translate }}"> Галерея</mat-tab>
+  </mat-tab-group>
 </div>
