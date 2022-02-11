@@ -1,8 +1,10 @@
 @import '../../../../styles-variables';
 //@import '~bootstrap/scss/bootstrap-grid';
 
+
 .container {
   margin-top: 20px;
+  font-family: HeliosCondThin;
 }
 
 .main-heading {
@@ -62,7 +64,6 @@ mat-card {
   justify-content: center;
   background-color: lightyellow;
 }
-
 
 @media (max-width: map-get($grid-breakpoints, md)) {
   .photos-side {

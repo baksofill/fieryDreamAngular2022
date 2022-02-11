@@ -1,0 +1,51 @@
+.photos {
+  font-family: HeliosCondThin;
+}
+
+.gallery-img-row {
+  max-width: 80%;
+  cursor: pointer;
+}
+
+.my-app-custom-plain-container-with-desc {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-height: 880px;
+  overflow: hidden;
+
+  .my-app-custom-image-with-desc {
+    height: auto;
+    margin-right: 2px;
+    //width: 200px;
+    align-self: start;
+  }
+}
+
+figure {
+  margin: 0;
+  position: relative;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+}
+
+figcaption {
+  background: rgba(0, 0, 0, .5);
+  color: #fff;
+  padding: 5px;
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+}
+
+.description {
+  font-weight: 400;
+  text-align: center;
+}

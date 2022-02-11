@@ -6,6 +6,7 @@ import { CoreModule } from './core/core.module';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app/app.component';
+import { GalleryModule } from '@ks89/angular-modal-gallery';
 
 @NgModule({
   imports: [
@@ -17,7 +18,9 @@ import { AppComponent } from './app/app.component';
     CoreModule,
 
     // app
-    AppRoutingModule
+    AppRoutingModule,
+
+    GalleryModule
   ],
   declarations: [AppComponent],
   bootstrap: [AppComponent]

@@ -2,6 +2,7 @@
 //@import '~bootstrap/scss/bootstrap-grid';
 
 .description-wrapper{
+  font-family: HeliosCondThin;
   overflow: initial;
   max-width: 100%;
 }
@@ -33,11 +34,16 @@
   color: green;
 }
 
+hr {
+  margin: 3px 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
 
+.programs {
+  cursor: pointer;
+}
 
 
 @media (max-width: map-get($grid-breakpoints, md)) {
-  .programs {
-    font-size: 12px;
-  }
+
 }

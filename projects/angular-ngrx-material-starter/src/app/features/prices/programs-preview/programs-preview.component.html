@@ -1,0 +1,15 @@
+<div class="photos">
+  <div class="my-app-custom-plain-container-with-desc">
+    <ng-container *ngFor="let img of images; let i = index">
+      <figure class="my-app-custom-image-with-desc">
+        <img class="gallery-img-row"
+             [src]="img.modal.img"
+             (click)="openImageModalRow(205, img)"
+             [alt]="img.modal.description"/>
+        <figcaption class="description">
+          {{img.modal.description ? img.modal.description : 'ВогнянеШоу'}}
+        </figcaption>
+      </figure>
+    </ng-container>
+  </div>
+</div>

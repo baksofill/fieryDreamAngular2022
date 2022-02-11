@@ -26,6 +26,16 @@
 @import './app/features/examples/theming/child/child.component.scss-theme';
 @import './app/features/examples/examples/examples.component.scss-theme';
 
+
+@import "~@angular/cdk/overlay-prebuilt.css";
+.ks-modal-gallery-backdrop {
+  background: #000 !important;;
+  opacity: 0.85 !important;;
+}
+.ks-modal-gallery-panel {
+  z-index: 90000 !important;
+}
+
 @mixin custom-components-theme($theme) {
   @include fd-styles-reset-theme($theme);
   @include fd-app-component-theme($theme);
