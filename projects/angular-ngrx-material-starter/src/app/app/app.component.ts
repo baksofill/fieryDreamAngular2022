@@ -38,8 +38,8 @@ export class AppComponent implements OnInit {
   navigation = [
     { link: 'about', label: 'fd.menu.about' },
     { link: 'prices', label: 'fd.menu.prices' },
-    { link: 'feature-list', label: 'fd.menu.features' },
-    { link: 'examples', label: 'fd.menu.examples' }
+    // { link: 'feature-list', label: 'fd.menu.features' },
+    // { link: 'examples', label: 'fd.menu.examples' }
   ];
   navigationSideMenu = [
     ...this.navigation,

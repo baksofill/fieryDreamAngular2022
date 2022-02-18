@@ -28,6 +28,8 @@ mat-sidenav-container {
       overflow: hidden;
       padding-top: 4px;
       text-overflow: ellipsis;
+      font-family: HeliosCondThin;
+      font-size: 1.5rem;
 
       &.center {
         text-align: center;
@@ -53,6 +55,11 @@ mat-sidenav-container {
       margin: 0 0 0 20px;
       width: 40px;
       font-size: 14px;
+    }
+
+    .mat-button, .mat-select{
+      font-size: 1.2rem;
+      font-family: HeliosCondThin;
     }
 
     @media (max-width: map-get($grid-breakpoints, lg)) {

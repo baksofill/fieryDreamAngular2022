@@ -241,6 +241,17 @@ $core-color: #ddd;
   }
 }
 
+.mat-tab-label-content {
+  text-transform: uppercase;
+  font-family: HeliosCondThin;
+  font-size: 1.8rem;
+}
+
+.light-theme .mat-tab-group.mat-primary .mat-ink-bar {
+  height: 3px;
+  background-color: #cbcbcb;
+}
+
 @-webkit-keyframes clockwise {
   0% {
     -webkit-transform: translate(0px, 0px);
