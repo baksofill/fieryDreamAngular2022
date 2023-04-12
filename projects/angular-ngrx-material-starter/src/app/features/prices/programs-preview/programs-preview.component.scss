@@ -1,3 +1,5 @@
+@import '../../../../styles-variables';
+
 .photos {
   font-family: HeliosCondThin;
 }
@@ -49,3 +51,11 @@ figcaption {
   font-weight: 400;
   text-align: center;
 }
+
+
+@media (max-width: map-get($grid-breakpoints, md)) {
+  .my-app-custom-plain-container-with-desc {
+    max-height: 100%;
+  }
+}
+

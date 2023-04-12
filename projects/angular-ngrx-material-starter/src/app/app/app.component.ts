@@ -43,7 +43,7 @@ export class AppComponent implements OnInit {
   ];
   navigationSideMenu = [
     ...this.navigation,
-    { link: 'settings', label: 'fd.menu.settings' }
+    // { link: 'settings', label: 'fd.menu.settings' }
   ];
 
   isAuthenticated$: Observable<boolean> | undefined;

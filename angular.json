@@ -158,7 +158,7 @@
       }
     }
   },
-  "defaultProject": "angular-ngrx-material-starter",
+  "defaultProject": "fieryDreamV2022",
   "cli": {
     "analytics": false
   }
