@@ -1,0 +1,40 @@
+@import '../../../../styles-variables';
+
+.main-head-row {
+  padding-top: 30px;
+  font-family: HeliosCondThin;
+}
+
+.row {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.main-heading {
+  //padding-bottom: 10px;
+}
+
+mat-divider {
+  margin: 40px 0 25px;
+}
+
+.content {
+  font-size: 19px;
+  margin: 10px 0 5px;
+  margin: 10px 0 5px;
+}
+
+.last-row {
+  margin-bottom: 70px;
+}
+
+iframe {
+  margin-top: 10px;
+}
+
+
+@media (max-width: map-get($grid-breakpoints, sm)) {
+  iframe {
+    height: 200px;
+  }
+}

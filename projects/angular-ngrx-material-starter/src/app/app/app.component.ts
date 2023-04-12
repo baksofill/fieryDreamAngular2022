@@ -34,7 +34,7 @@ export class AppComponent implements OnInit {
   version = env.versions.app;
   year = new Date().getFullYear();
   logo = 'assets/small-logo.png';
-  languages = ['ua', 'ru', 'en', 'de', ];
+  languages = ['ua', 'ru', 'en', ];
   navigation = [
     { link: 'about', label: 'fd.menu.about' },
     { link: 'prices', label: 'fd.menu.prices' },
